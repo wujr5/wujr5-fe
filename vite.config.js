@@ -1,9 +1,9 @@
 import { fileURLToPath, URL } from 'node:url';
-
+import Inspect from 'vite-plugin-inspect';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 
-import PugAtomcss from './plugin/pug-atomcss';
+import atomcss from 'vite-plugin-vue-atomcss';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -11,8 +11,8 @@ export default defineConfig({
     vue({
       reactivityTransform: true,
     }),
-    PugAtomcss(),
-    // Inspect(),
+    atomcss(),
+    Inspect(),
   ],
   resolve: {
     alias: {

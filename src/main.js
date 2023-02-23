@@ -3,7 +3,7 @@ import App from './App.vue';
 import router from './router';
 
 import './assets/main.css';
-import '../plugin/atomcss-common.css';
+import 'vite-plugin-vue-atomcss/plugin/atomcss.css';
 
 const app = createApp(App);
 

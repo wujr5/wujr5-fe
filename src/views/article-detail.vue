@@ -1,5 +1,7 @@
 <template lang="pug">
-.article-detail(v-html="article")
+div
+  .w-300.h-300.bg-yellow
+  .article-detail(v-html="article")
 </template>
 
 <script setup>

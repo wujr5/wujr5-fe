@@ -8,6 +8,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
+  "type": "module",
   "dependencies": {
     "axios": "^1.2.3",
     "pug": "^3.0.2",
@@ -20,6 +21,7 @@
     "@volar/vue-language-plugin-pug": "^1.0.24",
     "prettier": "^2.7.1",
     "vite": "^4.0.0",
-    "vite-plugin-inspect": "^0.7.15"
+    "vite-plugin-inspect": "^0.7.15",
+    "vite-plugin-vue-atomcss": "^0.0.2"
   }
 }
